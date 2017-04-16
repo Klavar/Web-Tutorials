@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  Video.m
 //  KlavarTutorials
 //
 //  Created by Tony Merritt on 16/04/2017.
 //  Copyright © 2017 Tony Merritt. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Video.h"
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
-
+@implementation Video
 
 @end
-

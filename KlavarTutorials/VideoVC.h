@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VideoVC.h
 //  KlavarTutorials
 //
 //  Created by Tony Merritt on 16/04/2017.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Video;
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface VideoVC : UIViewController <UIWebViewDelegate>
 
-
+@property(nonatomic,strong) Video *video;
 @end
-
